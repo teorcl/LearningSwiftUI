@@ -8,8 +8,23 @@
 import SwiftUI
 
 struct DatepickerTwo: View {
+    
+    @State var currentDate: Date = Date()
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Form {
+            DatePicker(
+                "Fecha",
+                selection: $currentDate,
+                in: Date()...,
+                displayedComponents: .date
+            ).padding(12)
+            
+            Text(
+                currentDate,
+                style: .date
+            ).bold()
+        }
     }
 }
 
