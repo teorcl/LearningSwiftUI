@@ -28,6 +28,10 @@ struct ContentView: View {
                 progressValueThree: $progressValueThree
             )
             
+            //LinkOne()
+            //LinkTwo()
+            
+            
         }.onTapGesture {
             progressValueOne = CGFloat.random(in: 0.0...1)
             progressValueTwo = CGFloat.random(in: 0.0...1)
