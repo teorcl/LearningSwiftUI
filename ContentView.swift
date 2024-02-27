@@ -30,14 +30,17 @@ struct ContentView: View {
             
             //LinkOne()
             //LinkTwo()
+            //TogleOne()
+            //StepperOne()
+            //StepperTwo()
             
-            
-        }.onTapGesture {
-            progressValueOne = CGFloat.random(in: 0.0...1)
-            progressValueTwo = CGFloat.random(in: 0.0...1)
-            progressValueThree = CGFloat.random(in: 0.0...1)
-            animateTheRings.toggle()
         }
+//        .onTapGesture {
+//            progressValueOne = CGFloat.random(in: 0.0...1)
+//            progressValueTwo = CGFloat.random(in: 0.0...1)
+//            progressValueThree = CGFloat.random(in: 0.0...1)
+//            animateTheRings.toggle()
+//        }
         .padding()
     }
 }

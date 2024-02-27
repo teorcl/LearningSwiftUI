@@ -10,7 +10,7 @@ import SwiftUI
 struct PruebasDeCustomModifiers: View {
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-            .fuenteGrande()
+            .fuentePersonalizada()
     }
 }
 
@@ -19,7 +19,7 @@ struct PruebasDeCustomModifiers: View {
 }
 
 extension View {
-    public func fuenteGrande() -> some View {
+    public func fuentePersonalizada() -> some View {
         modifier(MyBigFont())
     }
 }
