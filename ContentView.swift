@@ -21,19 +21,23 @@ struct ContentView: View {
             //DatepickerTwo()
             //ColorpickerOne()
             //ProgressViewOne()
-            RingProgressBar(
+            /*RingProgressBar(
                 animateTheRings: $animateTheRings,
                 progressValueOne: $progressValueOne,
                 progressValueTwo: $progressValueTwo,
                 progressValueThree: $progressValueThree
-            )
+            )*/
             
             //LinkOne()
             //LinkTwo()
             //TogleOne()
             //StepperOne()
             //StepperTwo()
-            SliderOne()
+            //SliderOne()
+            //LazygridOne()
+            //LazygridTwo()
+            //LazygridThree()
+            LazygridFour()
             
         }
 //        .onTapGesture {
