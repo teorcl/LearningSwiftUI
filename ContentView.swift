@@ -33,6 +33,7 @@ struct ContentView: View {
             //TogleOne()
             //StepperOne()
             //StepperTwo()
+            SliderOne()
             
         }
 //        .onTapGesture {
