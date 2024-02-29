@@ -12,13 +12,12 @@ struct ProgressViewOne: View {
     @State var isLoading: Bool = false
     
     var body: some View {
-        VStack {
+        VStack(spacing: 40) {
             if isLoading {
                 ProgressView("Loading")
                     .scaleEffect(2)
                 
             }
-            
             
             Button("Touch Me") {
                 isLoading = !isLoading

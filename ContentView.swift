@@ -37,7 +37,7 @@ struct ContentView: View {
             //LazygridOne()
             //LazygridTwo()
             //LazygridThree()
-            LazygridFour()
+            //LazygridFour()
             
         }
 //        .onTapGesture {
