@@ -38,6 +38,8 @@ struct ContentView: View {
             //LazygridTwo()
             //LazygridThree()
             //LazygridFour()
+            //FormOne()
+            ListOne()
             
         }
 //        .onTapGesture {
