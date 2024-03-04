@@ -39,7 +39,7 @@ struct ContentView: View {
             //LazygridThree()
             //LazygridFour()
             //FormOne()
-            ListOne()
+            //ListOne()
             
         }
 //        .onTapGesture {
