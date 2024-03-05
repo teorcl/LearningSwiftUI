@@ -41,9 +41,10 @@ struct ContentView: View {
             //FormOne()
             //ListOne()
             //NavigationOne()
-            TabviewOne()
-            TabviewTwo()
-            
+            //TabviewOne()
+            //TabviewTwo()
+            //FullScreenCover()
+            Sheet()
         }
 //        .onTapGesture {
 //            progressValueOne = CGFloat.random(in: 0.0...1)
