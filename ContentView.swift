@@ -44,7 +44,8 @@ struct ContentView: View {
             //TabviewOne()
             //TabviewTwo()
             //FullScreenCover()
-            Sheet()
+            //Sheet()
+            AlertOne()
         }
 //        .onTapGesture {
 //            progressValueOne = CGFloat.random(in: 0.0...1)
