@@ -49,7 +49,8 @@ struct ContentView: View {
             //ActionsheetOne()
             //ContextMenuOne()
             //ContextMenuTwo()
-            TapGestureOne()
+            //TapGestureOne()
+            TapGestureTwo()
         }
 //        .onTapGesture {
 //            progressValueOne = CGFloat.random(in: 0.0...1)
